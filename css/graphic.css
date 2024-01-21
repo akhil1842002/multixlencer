@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px; /* Set the desired gap between images */
+    padding: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gallery img {
+    width: 100%; /* Set the width to 100% to make it responsive */
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+} 
+
+/* Improved mobile responsiveness */
+@media only screen and (max-width: 600px) {
+    .gallery {
+        grid-template-columns: 1fr;
+        gap: 10px; /* Adjust the gap for smaller screens */
+        padding: 8px;
+    }
+}
+
+.title {
+    text-align: center;
+}
