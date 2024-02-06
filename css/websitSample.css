@@ -6,18 +6,22 @@ body {
     /* display: flex; */
     align-items: center;
     justify-content: center;
-    min-height: 100vh; /* Change height to min-height for better responsiveness */
+    min-height: 100vh;
+    /* Change height to min-height for better responsiveness */
 }
 
 .cards-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; /* Adjust spacing between cards */
-    gap: 16px; /* Add gap between cards */
+    justify-content: space-around;
+    /* Adjust spacing between cards */
+    gap: 16px;
+    /* Add gap between cards */
 }
 
 .card {
-    flex: 0 1 18rem; /* Flex property for responsiveness */
+    flex: 0 1 18rem;
+    /* Flex property for responsiveness */
     margin: 16px;
     border-radius: 8px;
     overflow: hidden;
@@ -28,7 +32,8 @@ body {
 .card-img-top {
     width: 100%;
     height: 200px;
-    object-fit: cover; /* Maintain aspect ratio for images */
+    object-fit: cover;
+    /* Maintain aspect ratio for images */
 }
 
 .card-body {
@@ -63,33 +68,38 @@ body {
     text-align: center;
 }
 
+.btn-center {
+    text-align: center;
+}
+
 /* Responsive Styles */
 @media only screen and (max-width: 767px) {
+
     .layout_padding,
     .layout_padding2,
     .layout_padding2-top,
     .layout_padding2-bottom,
     .layout_padding-top,
     .layout_padding-bottom {
-      padding: 30px 0;
+        padding: 30px 0;
     }
-  
+
     .hero_area {
-      height: auto;
+        height: auto;
     }
-  
+
     .slider_section .detail-box .btn-box a {
-      width: 100%;
+        width: 100%;
     }
-  
+
     .category_section .category_container .box {
-      -ms-flex-preferred-size: 100%;
-          flex-basis: 100%;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
     }
-  
+
     .info_section .info_top,
     .info_section .info_form form button,
     .info_section .info_contact .link-box {
-      margin-top: 20px;
+        margin-top: 20px;
     }
-  }
+}
