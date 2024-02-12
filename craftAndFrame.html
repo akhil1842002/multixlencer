@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="/css/photoEditing.css">
     <meta name="keywords" content="craft, photo design, photoframe, visual storytelling">
-    <meta name="description" content="Explore our Craft and Photo Design Showcase featuring a vibrant collection of craft and photoframe designs. Elevate your images and memories with our expertise and creative touch.">
+    <meta name="description"
+        content="Explore our Craft and Photo Design Showcase featuring a vibrant collection of craft and photoframe designs. Elevate your images and memories with our expertise and creative touch.">
     <meta name="author" content="MultixLencer">
     <title>Craft and Photo Design Showcase - Craft and PhotoFrame Designs</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -15,21 +16,22 @@
         src="https://www.jqueryscript.net/demo/jQuery-Before-After-Image-Comparison-Plugin-Image-Reveal/dist/jquery.imageReveal.js"></script>
     <link rel="stylesheet"
         href="https://www.jqueryscript.net/demo/jQuery-Before-After-Image-Comparison-Plugin-Image-Reveal/dist/jquery.imageReveal.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
-    <h4 class="title">Welcome to our Craft and PhotoFrame's Showcase</h4>
-    <p class="title">We are a community of skilled crafters and photoframe designers dedicated to enhancing visual
+    <h4 class="title" data-aos="fade-up">Welcome to our Craft and PhotoFrame's Showcase</h4>
+    <p class="title" data-aos="fade-up">We are a community of skilled crafters and photoframe designers dedicated to enhancing visual
         storytelling. Elevate your images and memories with our expertise and creative touch.</p>
     <div class="gallery">
-        <img src="/images/c1.jpeg" alt="craft sample one">
-        <img src="/images/c2.jpeg" alt="craft sample two">
-        <img src="/images/c3.jpeg" alt="craft sample three">
-        <img src="/images/c4.jpeg" alt="craft sample four">
-        <img src="/images/c5.jpeg" alt="craft sample five">
-        <img src="/images/c6.jpeg" alt="craft sample six">
-        <img src="/images/c7.jpeg" alt="craft sample seven">
-        <img src="/images/c8.jpeg" alt="craft sample eight">
+        <img data-aos="fade-up" src="/images/c1.jpeg" alt="craft sample one">
+        <img data-aos="fade-up" src="/images/c2.jpeg" alt="craft sample two">
+        <img data-aos="fade-up" src="/images/c3.jpeg" alt="craft sample three">
+        <img data-aos="fade-up" src="/images/c4.jpeg" alt="craft sample four">
+        <img data-aos="fade-up" src="/images/c5.jpeg" alt="craft sample five">
+        <img data-aos="fade-up" src="/images/c6.jpeg" alt="craft sample six">
+        <img data-aos="fade-up" src="/images/c7.jpeg" alt="craft sample seven">
+        <img data-aos="fade-up" src="/images/c8.jpeg" alt="craft sample eight">
     </div>
 
     <div class="row big">
@@ -44,5 +46,9 @@
 
 </body>
 <script src="/js/photoEditing.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </html>

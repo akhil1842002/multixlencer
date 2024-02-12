@@ -8,8 +8,10 @@
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <!-- Site Metas -->
-    <meta name="keywords" content="MultiXLencer, quality craftsmanship, timely delivery, affordable pricing, skilled freelancers, excellence, punctuality, cost-effectiveness" />
-    <meta name="description" content="Explore the world of MultiXLencer, where quality craftsmanship meets timely delivery and affordable pricing. Discover skilled freelancers committed to excellence, punctuality, and cost-effectiveness for your projects." />
+    <meta name="keywords"
+        content="MultiXLencer, quality craftsmanship, timely delivery, affordable pricing, skilled freelancers, excellence, punctuality, cost-effectiveness" />
+    <meta name="description"
+        content="Explore the world of MultiXLencer, where quality craftsmanship meets timely delivery and affordable pricing. Discover skilled freelancers committed to excellence, punctuality, and cost-effectiveness for your projects." />
     <meta name="author" content="MultixLencer" />
 
     <title>MultiXLencer - Quality Craftsmanship, Timely Delivery, Affordable Pricing</title>
@@ -20,6 +22,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- responsive style -->
     <link href="css/responsive.css" rel="stylesheet" />
 </head>
@@ -34,7 +37,7 @@
 
     <div class="hero_area">
         <!-- header section strats -->
-        <header class="header_section">
+        <header class="header_section" data-aos="fade-up">
             <div class="container-fluid">
                 <nav class="navbar navbar-expand-lg custom_nav-container">
                     <a class="navbar-brand" href="index.html">
@@ -64,16 +67,6 @@
                                 <a class="nav-link" href="category.html"> Category </a>
                             </li>
                         </ul>
-                        <!-- <div class="user_option">
-              <a href="">
-                <span>
-                  Login
-                </span>
-              </a>
-              <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
-                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-              </form>
-            </div> -->
                     </div>
                     <div>
                         <div class="custom_menu-btn ">
@@ -104,16 +97,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-lg-9 mx-auto">
-                    <div class="img-box">
+                    <div class="img-box" data-aos="fade-up">
                         <img src="images/about-img.jpg" alt="">
                     </div>
                 </div>
             </div>
             <div class="detail-box">
-                <h2>
+                <h2 data-aos="fade-up">
                     Quality Craftsmanship
                 </h2>
-                <p>
+                <p data-aos="fade-up">
                     Delve into a world of precision and skill with our freelancers. At MultiXLencer Company, quality is
                     not
                     just
@@ -122,10 +115,10 @@
                     standard of quality that speaks for itself.
                 </p>
 
-                <h2>
+                <h2 data-aos="fade-up">
                     Timely Delivery
                 </h2>
-                <p>
+                <p data-aos="fade-up">
                     Time matters, and we understand the importance of timely delivery. At MultiXLencer Company, we take
                     pride
                     in our commitment to deadlines. Our freelancers work efficiently to ensure that your projects are
@@ -133,10 +126,10 @@
                     it's our way of ensuring your satisfaction.
                 </p>
 
-                <h2>
+                <h2 data-aos="fade-up">
                     Affordable Pricing
                 </h2>
-                <p>
+                <p data-aos="fade-up">
                     Affordability meets excellence at MultiXLencer Company. We believe in fair and transparent pricing
                     without
                     compromising on the quality of service. Our freelancers offer competitive rates, ensuring you get
@@ -150,10 +143,10 @@
 
     <!-- info section -->
 
-    <section class="info_section ">
+    <section class="info_section " data-aos="fade-up">
         <div class="info_container layout_padding-top">
             <div class="container">
-                <div class="info_top">
+                <div class="info_top" data-aos="fade-up">
                     <div class="info_logo">
                         <img src="images/logo.png" alt="" />
                         <span>
@@ -174,7 +167,7 @@
                     </div>
                 </div>
 
-                <div class="info_main">
+                <div class="info_main" data-aos="fade-up">
                     <div class="row">
                         <div class="col-md-3 col-lg-2">
                             <div class="info_link-box">
@@ -219,7 +212,7 @@
 
                     </div>
                 </div>
-                <div class="row">
+                <div class="row" data-aos="fade-up">
                     <div class="col-lg-9 col-md-10 mx-auto">
                         <div class="info_contact layout_padding2">
                             <div class="row">
@@ -284,7 +277,10 @@
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/custom.js"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 </body>
