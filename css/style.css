@@ -240,6 +240,12 @@ a:focus {
   text-transform: uppercase;
 }
 
+.slider_section .detail-box h2 {
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 .slider_section .detail-box p {
   color: #ffffff;
   margin-top: 15px;
