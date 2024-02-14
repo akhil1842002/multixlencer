@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
     background-color: black;
+    font-family: 'Poppins', sans-serif;
     color: white;
     /* display: flex; */
     align-items: center;
@@ -13,7 +15,7 @@ body {
 .cards-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     /* Adjust spacing between cards */
     gap: 16px;
     /* Add gap between cards */
@@ -66,6 +68,7 @@ body {
 
 .title {
     text-align: center;
+    letter-spacing: 2px;
 }
 
 .btn-center {
